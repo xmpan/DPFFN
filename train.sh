@@ -1,0 +1,1 @@
+python train.py -train ./data/train -test ./data/test -epoch 300 -device cuda -out ./output -batch 1
