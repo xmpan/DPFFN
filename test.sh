@@ -1,0 +1,1 @@
+python test.py -input_hh /home/yangbo_zhou/HRRP_4090/OAcode/data/hh/test -input_vh /home/yangbo_zhou/HRRP_4090/OAcode/data/vh/test -model ./output/epoch=169.pth -device cuda
