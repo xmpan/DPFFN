@@ -70,20 +70,19 @@ This will evaluate the model and generate confusion matrices and performance met
 
 | Method    | Accuracy (%) | Params (M) | Polarization | Notes                |
 |-----------|--------------|------------|--------------|----------------------|
-| DPFFN     | 94.7         | 4.8        | HH + VH      | With fusion loss     |
-| Baseline  | 89.3         | 4.5        | HH only      | No fusion strategy   |
+| DPFFN     | 94.8         | 16.69        | HH + VH      | With fusion loss     |
+| Baseline  | 88.4         | 8.32        | HH only      | No fusion strategy   |
 
 ## 📄 Citation
 
 If you find this work helpful in your research, please consider citing:
 
 ```bibtex
-@article{zhou2025dpffn,
-  title={A Dual-Polarization Feature Fusion Network for Radar Automatic Target Recognition Based on HRRP Sequences},
-  author={Zhou, Yangbo and others},
-  journal={IEEE Transactions on Aerospace and Electronic Systems},
-  year={2025},
-  note={Submitted}
+@article{zhou2025dual,
+  title={A Dual-Polarization Feature Fusion Network for Radar Automatic Target Recognition Based On HRRP Sequence},
+  author={Zhou, Yangbo and Liu, Sen and Gao, Hong-Wei and Wei, Guohua and Wang, Xiaoqing and Pan, Xiao-Min and others},
+  journal={arXiv preprint arXiv:2501.13541},
+  year={2025}
 }
 ```
 
