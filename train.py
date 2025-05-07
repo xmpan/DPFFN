@@ -83,7 +83,7 @@ if __name__ == '__main__':
     epochs, n_heads, n_layers_G, n_layers_L, batch_size = args.epoch, args.head, args.Global, args.Local, args.batch
     alpha, cls, seq_len, device = args.alpha, args.cls, args.len, args.device
     d_model, d_ff, d_k, d_v = 100, 512, 64, 64
-    batch_size_test, size_out, num_epochs = 1, 16, 40
+    batch_size_test, size_out, num_epochs = 1, 16, 50
     total_time = 0
     best_acc = 0
 
