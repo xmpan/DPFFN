@@ -23,16 +23,14 @@ DPFFN introduces a two-branch architecture to exploit both **global structural s
 ```
 DPFFN/
 │
-├── model/                  # DPFFN model architecture
-│   └── dpffn.py
-├── data/                   # Dataset reading and preprocessing tools
-│   └── data_loader.py
-├── loss/                   # Custom loss functions (e.g., fusion loss)
-│   └── loss_fn.py
-├── utils/                  # Miscellaneous utilities
+├── utils/                  # Model and miscellaneous utilities
+│   └── attn.py
+│   └── data.py
+│   └── loss.py
+│   └── model.py
 ├── train.py                # Training script
-├── test.py                 # Evaluation and confusion matrix
-├── requirements.txt
+├── test.py                 
+├── requirements.txt        # Environments
 └── README.md
 ```
 
