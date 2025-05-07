@@ -46,9 +46,10 @@ pip install -r requirements.txt
 
 ### Dataset
 
-Please prepare your HRRP dataset in the format `[Batch, Sequence Length, Channel]`, e.g., `[N, 512, 401]` for HH/VH channels. Update the path and format loader in `data/data_loader.py`.
+Please prepare your HRRP dataset in the format `[Batch, Sequence Length, Channel]`, e.g., `[N, 512, 401]` for HH/VH channels. Update the path and format loader in `data/data.py`.
 
 > ⚠️ We do not distribute radar data due to security and copyright restrictions.
+> ⚠️ But we distribute one sample for each class for an test example.
 
 ### Training
 
